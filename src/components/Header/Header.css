@@ -1,0 +1,8 @@
+.navbar {
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.header-brand {
+    color: linear-gradient(to top, #2c3e50, #4ca1af);
+    width: 200px;
+}

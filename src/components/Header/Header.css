@@ -1,8 +1,14 @@
 .navbar {
-    background: linear-gradient(to right, #001b5a, rgb(255, 129, 167), #ff4a50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, #c63439, #06105b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background-image: url("../../assets/img/header-bg.png"); */
 }
 
 .header-brand {
+    font-family: 'Courier New', monospace;
     color: white;
     width: 200px;
 }
+.nav-link{
+    font-family: Verdana, sans-serif;
+    color: white !important;
+  }

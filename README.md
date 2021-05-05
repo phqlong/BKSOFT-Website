@@ -3,19 +3,19 @@
 ### Updated pages:
 Game\
 Contact\
-About Us\
+About Us
 
-### 'Pages to-do:'
+### Pages to-do:
 Home\
 Introduction\
 Social App\
 News\
-Events\
+Events
 
 ### Components:
 Header\
 Footer\
-Banner\
+Banner
 
 # Getting Started with Create React App
 

@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { Link, Redirect, useHistory } from 'react-router-dom'
+
 import { Col, Dropdown, DropdownItem, DropdownMenu, DropdownToggle, FormGroup, Input, InputGroup, InputGroupAddon, List, Row } from "reactstrap"
 import { useDispatch, useSelector } from "react-redux"
 
@@ -78,10 +79,12 @@ const Game = () => {
                             <Card.Title>The Oregon Trail</Card.Title>
                             <Button variant="primary">View Game</Button>
                         </Card.Body>
+
                     </Card>
                 </Col>
                 <Col xs="6" md="4">   
                     <Card className="card-game">
+
                     <Card.Body>
                         <Card.Img className="card-img"  variant="top" src="https://mkt-web.gameloft.com/static/a98386a60fb7464611e56a665cd27bda.jpg" />
                         <Card.Title>The Oregon Trail</Card.Title>
@@ -93,6 +96,7 @@ const Game = () => {
                 </Col>
                 <Col xs="6" md="4">   
                     <Card className="card-game">
+
                     <Card.Body>
                         <Card.Img className="card-img"  variant="top" src="https://mkt-web.gameloft.com/static/df8cd0bec21ddac93dcfc37a971233eb.jpg"/>
                         <Card.Title>The Oregon Trail</Card.Title>
@@ -100,10 +104,16 @@ const Game = () => {
                         </Card.Body>
                         {/* <h4>Tiki Monkeys</h4>
                         <p class="price"><span>450.000đ</span></p> */}
+
+                        <Card.Img className="card-img"  variant="top" src={require('./logo/logo_tikimonkeys.png').default} />
+                        <h4>Tiki Monkeys</h4>
+                        <p class="price"><span>450.000đ</span></p>
+
                     </Card>
                 </Col>
                 <Col xs="6" md="4">   
                     <Card className="card-game">
+
                     <Card.Body>
                         <Card.Img className="card-img"  variant="top" src="https://mkt-web.gameloft.com/static/73ef0055a5c8864503d0648f0252af82.jpg"/>
                         <Card.Title>The Oregon Trail</Card.Title>
@@ -111,10 +121,12 @@ const Game = () => {
                         </Card.Body>
                         {/* <h4>Pocket Climber</h4>
                         <p class="price"><span>450.000đ</span></p> */}
+
                     </Card>
                 </Col>
                 <Col xs="6" md="4">   
                     <Card className="card-game">
+
                     <Card.Body>
                         <Card.Img className="card-img"  variant="top" src="https://mkt-web.gameloft.com/static/59f80774d53aac7a84538bfa27dd664b.jpg" />
                         <Card.Title>The Oregon Trail</Card.Title>
@@ -122,10 +134,12 @@ const Game = () => {
                         </Card.Body>
                         {/* <h4>Almost A Hero</h4>
                         <p class="price"><span>450.000đ</span></p> */}
+
                     </Card>
                 </Col>
                 <Col xs="6" md="4">   
                     <Card className="card-game">
+
                     <Card.Body>
                         <Card.Img className="card-img"  variant="top" src="https://mkt-web.gameloft.com/static/4f12102d488dab2d95cb70663915a098.png" />
                         <Card.Title>The Oregon Trail</Card.Title>
@@ -133,10 +147,12 @@ const Game = () => {
                         </Card.Body>
                         {/* <h4>Pikamon</h4>
                         <p class="price"><span>450.000đ</span></p> */}
+
                     </Card>
                 </Col>
                 <Col xs="6" md="4">   
                     <Card className="card-game">
+
                     <Card.Body>
                         <Card.Img className="card-img" variant="top" src="https://mkt-web.gameloft.com/static/cf9515bb93ebe803c6724182979762a8.jpg" />
                         <Card.Title>The Oregon Trail</Card.Title>
@@ -148,6 +164,7 @@ const Game = () => {
                 </Col>
                 <Col xs="6" md="4">   
                     <Card className="card-game">
+
                     <Card.Body>
                         <Card.Img className="card-img"  variant="top" src="https://mkt-web.gameloft.com/static/1990fa5cd427975ccac192f4d592df7e.jpg" />
                         <Card.Title>The Oregon Trail</Card.Title>
@@ -160,7 +177,6 @@ const Game = () => {
             </Row>
           
             <Pagination className="pagination">{items}</Pagination>
-           
         </Container>
         </div>
         </>

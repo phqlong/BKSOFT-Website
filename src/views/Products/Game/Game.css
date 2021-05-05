@@ -17,7 +17,7 @@
 }
 .align-left{
     text-align: left;
-}
+
 .form-select{
     margin: 20px;
     margin-right: 0px;
@@ -29,4 +29,5 @@
     justify-content: center;
     margin-bottom: auto;
     padding-bottom: 10px;
+
 }

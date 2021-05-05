@@ -1,14 +1,17 @@
 import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Home from './components/Home/Home';
-import Introduction from './components/Introduction/Introduction';
-import Game from './components/Products/Game/Game';
-import SocialApp from './components/Products/SocialApp/SocialApp';
-import News from './components/News/News/News';
-import Events from './components/News/Events/Events';
-import Contact from './components/Connect/Contact/Contact';
-import AboutUs from './components/Connect/AboutUs/AboutUs';
+import ScrollTop from './components/ScrollTop/ScrollTop'
+import Home from './views/Home/Home';
+import Introduction from './views/Introduction/Introduction';
+import Game from './views/Products/Game/Game';
+import SocialApp from './views/Products/SocialApp/SocialApp';
+import News from './views/News/News/News';
+import Events from './views/News/Events/Events';
+import Contact from './views/Connect/Contact/Contact';
+import AboutUs from './views/Connect/AboutUs/AboutUs';
+import NotFound from './views/NotFound/NotFound';
+
 
 import { BrowserRouter, Route, Switch, IndexRoute, hashHistory} from 'react-router-dom';
 
@@ -16,47 +19,29 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        
+        <ScrollTop/>
         <Header />
 
         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
+          <Route exact path="/" component={Home} />
 
-          <Route path="/home">
-            <Home />
-          </Route>
+          <Route path="/home" component={Home} />
 
-          <Route path="/introduction">
-            <Introduction />
-          </Route>
+          <Route path="/introduction" component={Introduction} />
 
-          <Route path="/game">
-            <Game />
-          </Route>
+          <Route path="/game" component={Game} />
 
-          <Route path="/socialapp">
-            <SocialApp />
-          </Route>
+          <Route path="/socialapp" component={SocialApp} />
+
+          <Route path="/news" component={News} />
           
-          
+          <Route path="/events" component={Events} />
 
-          <Route path="/news">
-            <News />
-          </Route>
+          <Route path="/contact" component={Contact} />
 
-          <Route path="/events">
-            <Events />
-          </Route>
+          <Route path="/aboutus" component={AboutUs} />
 
-          <Route path="/contact">
-            <Contact />
-          </Route>
-
-          <Route path="/aboutus">
-            <AboutUs />
-          </Route>
+          <Route component={NotFound} status={404} />
         </Switch>
 
         <Footer />

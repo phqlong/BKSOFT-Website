@@ -1,0 +1,18 @@
+.info {
+    justify-content: center;
+    align-items: center;
+
+    &__email, &__phone {
+        font-weight: bold;
+        margin: 30px;
+    }
+
+    iframe {
+        height: 250px;
+        width: 400px;
+    }
+
+    a:hover {
+        color: goldenrod;
+    }
+}

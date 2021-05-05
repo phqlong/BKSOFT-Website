@@ -8,8 +8,8 @@ import {Nav, Navbar, NavDropdown, Form, FormGroup, FormControl, Button, Breadcru
 
 import Icofont from 'react-icofont';
 
-import Banner from "../../Banner"
-// import Images from "../../../assets/img";
+import Banner from "../../../components/Banner"
+import "./contact.scss";
 
 
 const Contact = () => {
@@ -28,33 +28,34 @@ const Contact = () => {
 
                 <Row>
                     <Col className="info" lg={true}>
-                        <div class="address">
+                        <div class="info__email">
+                            <h4>
+                                <i class="icofont-envelope"></i>
+                                Email:
+                            </h4>
+                            <a href="mailto:phqlong2810@gmail.com">info@bksoft.com.vn</a>
+                        </div>
+
+                        <div class="info__phone">
+                            <h4>
+                                <i class="icofont-phone"></i>
+                                Điện thoại:
+                            </h4>
+                            <a href="tel:+84 082 999 8922">+84 082 999 8922</a>
+                        </div>
+
+                        <div class="info__address">
                             <h4> 
                                 <i className="icofont-location-arrow"></i>
                                 Địa chỉ: 
                             </h4>
                             <p>Tòa H6, Đại học Bách khoa HCM, Dĩ An, Bình Dương</p>
+                            <iframe 
+                                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJf5mMVqXYdDERDG4WevEFrN4&key=AIzaSyCLy-jNKbq2TcDSCRoYbqE8zM_ehxFUAI4" 
+                                frameborder="0"
+                                allowfullscreen>
+                            </iframe>
                         </div>
-
-                        <div class="email">
-                            <h4>
-                                <i class="icofont-envelope"></i>
-                                Email:
-                            </h4>
-                            <p>info@bksoft.com.vn</p>
-                        </div>
-
-                        <div class="phone">
-                            <h4>
-                                <i class="icofont-phone"></i>
-                                Điện thoại:
-                            </h4>
-                            <p>+84 082 999 8922</p>
-                        </div>
-
-                        <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJf5mMVqXYdDERDG4WevEFrN4&key=AIzaSyCLy-jNKbq2TcDSCRoYbqE8zM_ehxFUAI4" frameborder="0"
-                        allowfullscreen></iframe>
-                    
                     </Col>
                     
                     <Col className="form" lg={true}>

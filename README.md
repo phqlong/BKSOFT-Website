@@ -1,3 +1,22 @@
+### 'Webapp BKSOFT - Frontend: ReactJS + Bootstrap'
+
+# Updated pages:
+Game
+Contact
+About Us
+
+# Pages to-do:
+Home
+Introduction
+Social App
+News
+Events
+
+# Components:
+Header
+Footer
+Banner
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

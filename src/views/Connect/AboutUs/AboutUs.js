@@ -48,7 +48,6 @@ const AboutUs = () => {
                           <FaLinkedin className="icon"/>
                         </Card.Footer>
                       </Card>
-                      <br />
                     </Col>
 
                     <Col lg={true}>
@@ -67,7 +66,6 @@ const AboutUs = () => {
                           <FaLinkedin className="icon"/>
                         </Card.Footer>
                       </Card>
-                      <br />
                     </Col>
                     
                     <Col lg={true}>
@@ -86,7 +84,6 @@ const AboutUs = () => {
                           <FaLinkedin className="icon"/>
                         </Card.Footer>
                       </Card>
-                      <br />
                     </Col>
 
                     <Col lg={true}>

@@ -4,7 +4,8 @@
 Game\
 Contact\
 About Us\
-Events
+Events\
+Page not found
 
 ### Pages to-do:
 Home\

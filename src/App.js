@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import ScrollTop from './components/ScrollTop/ScrollTop'
 import Home from './views/Home/Home';
 import Introduction from './views/Introduction/Introduction';
 import Game from './views/Products/Game/Game';
@@ -11,13 +12,14 @@ import Contact from './views/Connect/Contact/Contact';
 import AboutUs from './views/Connect/AboutUs/AboutUs';
 import NotFound from './views/NotFound/NotFound';
 
+
 import { BrowserRouter, Route, Switch, IndexRoute, hashHistory} from 'react-router-dom';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        
+        <ScrollTop/>
         <Header />
 
         <Switch>

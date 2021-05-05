@@ -1,14 +1,14 @@
 import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Home from './components/Home/Home';
-import Introduction from './components/Introduction/Introduction';
-import Game from './components/Products/Game/Game';
-import SocialApp from './components/Products/SocialApp/SocialApp';
-import News from './components/News/News/News';
-import Events from './components/News/Events/Events';
-import Contact from './components/Connect/Contact/Contact';
-import AboutUs from './components/Connect/AboutUs/AboutUs';
+import Home from './views/Home/Home';
+import Introduction from './views/Introduction/Introduction';
+import Game from './views/Products/Game/Game';
+import SocialApp from './views/Products/SocialApp/SocialApp';
+import News from './views/News/News/News';
+import Events from './views/News/Events/Events';
+import Contact from './views/Connect/Contact/Contact';
+import AboutUs from './views/Connect/AboutUs/AboutUs';
 
 import { BrowserRouter, Route, Switch, IndexRoute, hashHistory} from 'react-router-dom';
 

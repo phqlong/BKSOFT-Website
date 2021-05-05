@@ -8,7 +8,7 @@ import {Nav, Navbar, NavDropdown, Form, FormGroup, FormControl, Button, Breadcru
 
 import Icofont from 'react-icofont';
 
-import Banner from "../../Banner"
+import Banner from "../../../components/Banner"
 // import Images from "../../../assets/img";
 
 

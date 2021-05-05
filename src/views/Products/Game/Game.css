@@ -17,4 +17,17 @@
 }
 .align-left{
     text-align: left;
+
+.form-select{
+    margin: 20px;
+    margin-right: 0px;
+    border-width: 2px;
+    border-color: skyblue;
+    width: 85%;
+}
+.pagination{
+    justify-content: center;
+    margin-bottom: auto;
+    padding-bottom: 10px;
+
 }

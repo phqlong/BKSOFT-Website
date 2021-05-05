@@ -11,4 +11,12 @@
 .nav-link{
     font-family: Verdana, sans-serif;
     color: white !important;
-  }
+}
+
+.nav-link + .nav-link {
+    margin-left: 50px;
+}
+
+.nav-dropdown + .nav-dropdown {
+    margin-left: 50px;
+}

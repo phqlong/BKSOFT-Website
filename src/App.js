@@ -13,42 +13,56 @@ import AboutUs from './views/Connect/AboutUs/AboutUs';
 import NotFound from './views/NotFound/NotFound';
 
 
-import { BrowserRouter, Route, Switch, IndexRoute, hashHistory} from 'react-router-dom';
+// import {handleTogglerInHome} from '../src/assets/js/index'
+
+import { BrowserRouter, Route, Switch, IndexRoute, hashHistory } from 'react-router-dom';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <ScrollTop/>
-        <Header />
-
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/">
+            <Home />
+          </Route>
 
-          <Route path="/home" component={Home} />
+          <Route exact path="/home">
+            <Home /> 
+          </Route>
 
-          <Route path="/introduction" component={Introduction} />
+          <Route>
+            <Header />
 
-          <Route path="/game" component={Game} />
+            <Switch>
+              <Route exact path="/" component={Home} />
 
-          <Route path="/socialapp" component={SocialApp} />
+              <Route path="/home" component={Home} />
 
-          <Route path="/news" component={News} />
-          
-          <Route path="/events" component={Events} />
+              <Route path="/introduction" component={Introduction} />
 
-          <Route path="/contact" component={Contact} />
+              <Route path="/game" component={Game} />
 
-          <Route path="/aboutus" component={AboutUs} />
+              <Route path="/socialapp" component={SocialApp} />
 
-          <Route component={NotFound} status={404} />
+              <Route path="/news" component={News} />
+
+              <Route path="/events" component={Events} />
+
+              <Route path="/contact" component={Contact} />
+
+              <Route path="/aboutus" component={AboutUs} />
+
+              <Route component={NotFound} status={404} />
+            </Switch>
+
+            <Footer />
+            <ScrollTop />
+          </Route>
+
+
         </Switch>
-
-        <Footer />
-
       </div>
     </BrowserRouter>
   );
 }
-
 export default App;

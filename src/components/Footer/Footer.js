@@ -37,57 +37,57 @@ const Footer = () => {
     return (
             <Container fluid id="footer">
                 <Row>
-                    <Col lg={2} id="footer-name">
-                        <h1 className="Footer-brand"><a href="/home">BKSOFT</a></h1>
+                    <Col lg={3} id="footer-name">
+                        <h2 className="Footer-brand"><a href="/home">BKS0FT</a></h2>
                     </Col>
-                    <Col lg={4} id="footer-info">
-                        <h3>Liên hệ</h3>
+                    <Col lg={3} id="footer-info">
+                        <h5>Liên hệ</h5>
                         <hr></hr>
                         <div id="footer-info-email">
-                            <h4>
+                            <h6>
                                 <i class="icofont-envelope"></i>
                                 <a href="mailto:phqlong2810@gmail.com"> info@bksoft.com.vn</a>
-                            </h4>
+                            </h6>
                         </div>
 
                         <div id="footer-info-phone">
                             
-                            <h4>
+                            <h6>
                                 <i class="icofont-phone"></i>
                                 <a href="tel:+84 082 999 8922"> +84 082 999 8922</a>
-                            </h4>
+                            </h6>
                         </div>
 
                         <div id="footer-info-address">
-                            <h4> 
+                            <h6> 
                                 <i className="icofont-location-pin"></i>
                                 <p> H6, HCMUT</p>
-                            </h4>
+                            </h6>
                         </div>
                     </Col>
                     <Col lg={3} id="footer-links">
-                        <h3>Về chúng tôi</h3>
+                        <h5>Về chúng tôi</h5>
                         <hr></hr>
                         <div>
-                            <h4>
+                            <h6>
                                 <a href="introduction">Giới thiệu</a>
-                            </h4>
+                            </h6>
                         </div>
                         <div>
-                            <h4>
+                            <h6>
                                 <a href="game">Game</a>
-                            </h4>
+                            </h6>
                         </div>
                         <div>
-                            <h4>
+                            <h6>
                                 <a href="events">Sự kiện</a>
-                            </h4>
+                            </h6>
                         </div>
                     
                     </Col>
 
                     <Col lg={3} id="footer-social">
-                        <h3>Theo dõi</h3>
+                        <h5>Theo dõi</h5>
                         <hr></hr>
                         <div id="footer-social-list">
                             <a href="#"><FaFacebook/></a>
@@ -96,7 +96,7 @@ const Footer = () => {
                         </div>
                     </Col>
                 </Row>
-                <h6 id="footer-copyright"> Copyright © 2021-2031 <a href="/home">BKSOFT</a> | All rights reserved</h6>    
+                <h5 id="footer-copyright"> Copyright © 2021-2031 <a href="/home">BKS0FT</a> | All rights reserved</h5>    
             </Container>
     )
 }

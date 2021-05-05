@@ -1,0 +1,20 @@
+.banner {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+
+    background-image: url(../../assets/img/bn1.png);
+    background-position: center;
+    background-size: cover;
+
+    &__title {
+        color: white;
+        font-weight: bold;
+    }
+
+    &__content {
+        color: white;
+    }
+}

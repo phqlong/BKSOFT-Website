@@ -32,10 +32,15 @@ function App() {
             <Introduction />
           </Route>
 
-          <Route path="/products">
-            <Route path="/game" component={Game} />
-            <Route path="/socialapp" component={SocialApp} />
+          <Route path="/game">
+            <Game />
           </Route>
+
+          <Route path="/socialapp">
+            <SocialApp />
+          </Route>
+          
+          
 
           <Route path="/news">
             <News />

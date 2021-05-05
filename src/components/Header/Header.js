@@ -28,9 +28,9 @@ const Header = () => {
                     <Nav.Link href="introduction">Giới thiệu</Nav.Link>
 
                     <NavDropdown title="Sản phẩm">
-                        <NavDropdown.Item href="products/game">Game</NavDropdown.Item>
+                        <NavDropdown.Item href="game">Game</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="products/socialapp">Social app</NavDropdown.Item>
+                        <NavDropdown.Item href="socialapp">Social app</NavDropdown.Item>
                         {/* <NavDropdown.Divider />
                         <NavDropdown.Item href="product/pricing">Bảng giá</NavDropdown.Item> */}
                     </NavDropdown>

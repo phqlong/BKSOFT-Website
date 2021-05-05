@@ -3,14 +3,14 @@
 ### Updated pages:
 Game\
 Contact\
-About Us
+About Us\
+Events
 
 ### Pages to-do:
 Home\
 Introduction\
 Social App\
-News\
-Events
+News
 
 ### Components:
 Header\

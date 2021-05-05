@@ -1,18 +1,18 @@
-### 'Webapp BKSOFT - Frontend: ReactJS + Bootstrap'
+# Webapp BKSOFT - Frontend: ReactJS + Bootstrap
 
-# Updated pages:
+### Updated pages:
 Game
 Contact
 About Us
 
-# Pages to-do:
+### Pages to-do:
 Home
 Introduction
 Social App
 News
 Events
 
-# Components:
+### Components:
 Header
 Footer
 Banner

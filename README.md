@@ -1,21 +1,21 @@
 # Webapp BKSOFT - Frontend: ReactJS + Bootstrap
 
 ### Updated pages:
-Game
-Contact
-About Us
+Game\
+Contact\
+About Us\
 
-### Pages to-do:
-Home
-Introduction
-Social App
-News
-Events
+### 'Pages to-do:'
+Home\
+Introduction\
+Social App\
+News\
+Events\
 
 ### Components:
-Header
-Footer
-Banner
+Header\
+Footer\
+Banner\
 
 # Getting Started with Create React App
 

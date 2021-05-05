@@ -3,7 +3,9 @@
 ### Updated pages:
 Game\
 Contact\
-About Us
+About Us\
+Events\
+Page not found
 
 ### Pages to-do:
 Home\

@@ -1,0 +1,9 @@
+.icon {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+
+.icon + .icon {
+    margin-left: 20px;
+}

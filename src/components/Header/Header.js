@@ -13,7 +13,7 @@ import "./Header.css"
 const Header = () => {
 
     return (
-        <Navbar collapseOnSelect expand="lg" className="navbar">
+        <Navbar collapseOnSelect expand="lg" id="header" className="navbar">
             <Container>
                 <Navbar.Brand href="home">
                     <h2 className="header-brand">BKSOFT</h2>
@@ -22,7 +22,7 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="mr-auto">
+                    <Nav className="ml-auto">
                         <Nav.Link href="home">Trang chủ</Nav.Link>
 
                         <Nav.Link href="introduction">Giới thiệu</Nav.Link>

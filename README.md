@@ -11,8 +11,7 @@ Page not found
 Home\
 Introduction\
 Social App\
-News\
-Events
+News
 
 ### Components:
 Header\

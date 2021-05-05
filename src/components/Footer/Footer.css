@@ -1,0 +1,39 @@
+.Footer {
+    background-image: url("../../assets/img/footer-bg.png");
+    background-size: cover;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 12rem;
+}
+
+.Footer a {
+    color: white;
+}
+
+.Footer a:hover {
+    color: goldenrod;
+}
+
+.Footer__brand {
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    color: white;
+    padding-top: 2rem;
+}
+
+.icon {
+    padding-left: 50px;
+}
+
+.Footer__icons {
+    padding-top: 5rem;
+}
+
+.Footer__copyright {
+    position: relative;
+    color: white;
+    padding-top: 1rem;
+}

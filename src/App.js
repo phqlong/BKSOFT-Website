@@ -40,8 +40,6 @@ function App() {
             <SocialApp />
           </Route>
           
-          
-
           <Route path="/news">
             <News />
           </Route>

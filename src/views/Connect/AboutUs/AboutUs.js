@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Nav, Navbar, NavDropdown, Form, FormGroup, FormControl, Button, Breadcrumb, Container, Card, Jumbotron } from 'react-bootstrap';
 
 import "./aboutus.css";
-import Banner from "../../Banner"
+import Banner from "../../../components/Banner"
 
 import {FaFacebook, FaInstagram, FaLinkedin} from "react-icons/fa"
 

@@ -5,7 +5,7 @@ import ScrollTop from './components/ScrollTop/ScrollTop'
 import Home from './views/Home/Home';
 import Introduction from './views/Introduction/Introduction';
 import Game from './views/Products/Game/Game';
-import SocialApp from './views/Products/SocialApp/SocialApp';
+import Software from './views/Products/Software/Software';
 import News from './views/News/News/News';
 import Events from './views/News/Events/Events';
 import Contact from './views/Connect/Contact/Contact';
@@ -42,7 +42,7 @@ function App() {
 
               <Route path="/game" component={Game} />
 
-              <Route path="/socialapp" component={SocialApp} />
+              <Route path="/software" component={Software} />
 
               <Route path="/news" component={News} />
 

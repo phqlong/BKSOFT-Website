@@ -1,0 +1,43 @@
+#root {
+    background: linear-gradient(to left, #c63439, #06105b);
+}
+
+.s-aboutus {
+    margin-top: 1rem;
+    background-color:#2c3e50;
+    color: whitesmoke;
+}
+
+.s-aboutus hr {
+    border-top: 2px solid rgba(240, 238, 243, 0.3);
+    width: 90%;
+}
+
+.s-products .jumbotron{
+    margin-bottom: 0;
+    background-color: ivory;
+}
+
+.s-products hr {
+    border-top: 2px solid rgba(62, 44, 100, 0.3);
+    width: 90%;
+}
+
+.s-products a{
+    text-decoration: none;
+    color: white;
+}
+
+.s-products .card {
+    background-color: #eeeeee;
+}
+
+.s-products .card-text {
+    text-align: justify;
+}
+.s-products .card-header {
+    background-color: #0984e3;
+    color: whitesmoke;
+}
+
+

@@ -5,15 +5,21 @@
         width: 100%;
         background: rgba(0,0,0,0.6);
         transition: 0.3s;
-        .dropdown-menu.show{
-            background: white;
+        .nav-dropdown{
+            .dropdown-menu{
+                background: white;
+                a.nav-link{
+                    padding: 0.25rem 1.5rem;
+                    color: black !important;
+                }
+                .nav-link-active{
+                    border-bottom: none;
+                    border-left: solid;
+                }
+            }
+            
         }
-        .dropdown-menu.show a.dropdown-item{
-            color: black;
-        }
-        .dropdown-menu.show a.dropdown-item:hover{
-            background-color: rgba(0, 0, 0, 0.3);
-        }        
+
     }
     &-title{
         margin-bottom: 0;

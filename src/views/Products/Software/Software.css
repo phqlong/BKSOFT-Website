@@ -1,12 +1,13 @@
 .card-game{
     margin-bottom: 10px;
     box-sizing: border-box;
+    border-width: 2px;
+    border-color: rgb(65, 172, 225);
 }
 .card-img{
     padding: 10px;
     transform:scale(1, 1);
     transition: 1s;
-
 }
 .card-img:hover {
     transform:scale(1.2, 1.2);
@@ -25,12 +26,12 @@
     border-color: skyblue;
     width: 85%;
 }
-.pagination{
-    justify-content: center;
-    margin-bottom: auto;
-    padding-bottom: 10px;
+.name-software{
+    font-weight: bold;
+    color:rgb(82, 23, 209);
 }
+
 .breadcrumb{
     background: rgba(0,0,0,0);
-
+ 
 }

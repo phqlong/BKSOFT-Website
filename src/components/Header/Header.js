@@ -30,7 +30,7 @@ const Header = () => {
                         <NavDropdown title="Sản phẩm">
                             <NavDropdown.Item href="game">Game</NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="socialapp">Social app</NavDropdown.Item>
+                            <NavDropdown.Item href="software">Software</NavDropdown.Item>
                             {/* <NavDropdown.Divider />
                             <NavDropdown.Item href="product/pricing">Bảng giá</NavDropdown.Item> */}
                         </NavDropdown>

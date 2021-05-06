@@ -5,17 +5,18 @@ import ScrollTop from './components/ScrollTop/ScrollTop'
 import Home from './views/Home/Home';
 import Introduction from './views/Introduction/Introduction';
 import Game from './views/Products/Game/Game';
-import SocialApp from './views/Products/SocialApp/SocialApp';
+import Software from './views/Products/Software/Software';
 import News from './views/News/News/News';
 import Events from './views/News/Events/Events';
 import Contact from './views/Connect/Contact/Contact';
 import AboutUs from './views/Connect/AboutUs/AboutUs';
 import NotFound from './views/NotFound/NotFound';
-
+import GameDetail from './views/Products/GameDetail/GameDetail';
 
 // import {handleTogglerInHome} from '../src/assets/js/index'
 
 import { BrowserRouter, Route, Switch, IndexRoute, hashHistory } from 'react-router-dom';
+
 
 function App() {
   return (
@@ -42,7 +43,9 @@ function App() {
 
               <Route path="/game" component={Game} />
 
-              <Route path="/socialapp" component={SocialApp} />
+              <Route path="/gamedetail" component={GameDetail} />
+
+              <Route path="/software" component={Software} />
 
               <Route path="/news" component={News} />
 

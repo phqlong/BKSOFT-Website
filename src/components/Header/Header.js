@@ -66,7 +66,7 @@ class Header extends Component{
                                 <NavLink to="/game" className="nav-link" activeClassName="nav-link-active">Game</NavLink>
                                 {/* <NavDropdown.Item href="game">Game</NavDropdown.Item> */}
                                 {/* <NavDropdown.Divider /> */}
-                                <NavLink to="/socialapp" className="nav-link" activeClassName="nav-link-active">Social App</NavLink>
+                                <NavLink to="/software" className="nav-link" activeClassName="nav-link-active">Software</NavLink>
                                 {/* <NavDropdown.Item href="socialapp">Social app</NavDropdown.Item> */}
                                 {/* <NavDropdown.Divider />
                                 <NavDropdown.Item href="product/pricing">Bảng giá</NavDropdown.Item> */}

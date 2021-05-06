@@ -92,7 +92,7 @@ const Footer = () => {
                         <div id="footer-social-list">
                             <a href="#"><FaFacebook/></a>
                             <a href="#"><FaLinkedin/></a>
-                            <a href="https://github.com/phqlong/Web-assignment"><FaGithub/></a>
+                            <a href="https://github.com/phqlong/Web-assignment" target="_blank"><FaGithub/></a>
                         </div>
                     </Col>
                 </Row>

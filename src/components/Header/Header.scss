@@ -1,0 +1,46 @@
+.navbar {
+    background: linear-gradient(to left, #c63439, #06105b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background-image: url("../../assets/img/header-bg.png"); */ 
+}
+.nav-link{
+    font-family: Verdana, sans-serif;
+    color: white !important;
+}
+.nav-link:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.nav-link-active{
+    border-bottom: solid;
+    border-bottom-width: 20%;
+}
+
+.nav-dropdown{
+    .dropdown-menu{
+        background: linear-gradient(to left, #c63439, #06105b);
+        a.nav-link{
+            padding: 0.25rem 1.5rem;
+        }
+        .nav-link-active{
+            border-bottom: none;
+            border-left: solid;
+        }
+    }
+    
+}
+
+.header-brand {
+    font-family: 'Courier New', monospace;
+    color: white;
+    width: 200px;
+}
+
+@media only screen and (max-width: 991px){
+    .nav-link{
+        text-align: left;
+
+    }
+    .header-brand{
+        text-align: left;
+    }
+}
+

@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, Component } from "react"
 import { AiOutlineSearch } from 'react-icons/ai'
 import { Link, Redirect, useHistory } from 'react-router-dom'
 import { Form ,Col, Dropdown, DropdownItem, DropdownMenu, DropdownToggle, FormGroup, Input, InputGroup, InputGroupAddon, List, Row } from "reactstrap"
@@ -9,10 +9,19 @@ import {Nav, Navbar, NavDropdown, FormControl, Button, Container } from 'react-b
 
 import "./ScrollTop.css"
 
-const ScrollTop = () => {
-    return(
-        <i id="scroll-top" className="icofont-arrow-up"></i>
-    );
+
+class ScrollTop extends Component{
+    componentDidMount(){
+        const scrollTop = document.getElementById("scroll-top");
+        scrollTop.addEventListener("click", () =>{
+            window.scrollTo(0,0);
+        })
+    }
+    render(){
+        return (
+            <i id="scroll-top" className="icofont-rounded-up"></i>       
+        )
+    }
 }
 
 export default ScrollTop

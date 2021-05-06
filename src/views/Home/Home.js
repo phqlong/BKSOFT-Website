@@ -42,6 +42,7 @@ class Home extends Component {
                 headerBrand.style.display = "none";
             } else {
                 navbar.style.background = "rgba(0, 0, 0, 0.3)";
+                headerBrand.style.display = "block";
             }
         };
         fixNav(x);

@@ -13,7 +13,7 @@
     transform:scale(1.2, 1.2);
    
 }
-.bg{
+.Software-bg{
     background: linear-gradient(to left, #c63439, #06105b);
 }
 .align-left{
@@ -31,7 +31,7 @@
     color:rgb(82, 23, 209);
 }
 
-.breadcrumb{
+.Software-bg .breadcrumb{
     background: rgba(0,0,0,0);
  
 }

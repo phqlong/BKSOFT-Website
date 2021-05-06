@@ -10,7 +10,7 @@ import "./Software.css"
 const SocialApp = () => {
     return (
         <>
-            <div className="bg">
+            <div className="Software-bg">
                 <Banner
                     title="</> Chúng ta không thể thay đổi tương lai nhưng phần mềm có thể tạo nên nó"
                     content="BKSoft với 20 năm kinh nghiệm xây dựng và phát triển phần mềm có thể chuyển tầm nhìn và ý thức kinh

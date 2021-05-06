@@ -12,7 +12,7 @@
     transform:scale(1.2, 1.2);
    
 }
-.bg{
+.Game-bg{
     background: linear-gradient(to left, #c63439, #06105b);
 }
 .align-left{
@@ -30,7 +30,7 @@
     margin-bottom: auto;
     padding-bottom: 10px;
 }
-.breadcrumb{
+.Game-bg .breadcrumb{
     background: rgba(0,0,0,0);
 
 }

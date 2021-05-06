@@ -20,7 +20,7 @@ const Game = () => {
         );
     }
     return (
-        <div className="bg">
+        <div className="Game-bg">
                 <Banner
                     title="</> Trò chơi trực tuyến"
                     content="Phát triển và sản xuất trò chơi trực tuyến, phát hành ở thị trường trong nước và tung ra thị trường quốc tế."
@@ -69,7 +69,7 @@ const Game = () => {
                             <Card.Body>
                                 <Card.Img className="card-img" variant="top" src="https://mkt-web.gameloft.com/static/83a75e971777052e179374fb3c48cbb2.jpg" />
                                 <Card.Title>The Oregon Trail</Card.Title>
-                                <Button variant="primary">View Game</Button>
+                                <Button href="gamedetail" variant="primary">View Game</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -78,7 +78,7 @@ const Game = () => {
                             <Card.Body>
                                 <Card.Img className="card-img" variant="top" src="https://mkt-web.gameloft.com/static/1d4ff24b4b4f74f845891c1ae13dff51.png" />
                                 <Card.Title>Song Pop 2</Card.Title>
-                                <Button variant="primary">View Game</Button>
+                                <Button href="gamedetail" variant="primary">View Game</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -87,7 +87,7 @@ const Game = () => {
                             <Card.Body>
                                 <Card.Img className="card-img" variant="top" src="https://mkt-web.gameloft.com/static/a98386a60fb7464611e56a665cd27bda.jpg" />
                                 <Card.Title>Versus</Card.Title>
-                                <Button variant="primary">View Game</Button>
+                                <Button href="gamedetail" variant="primary">View Game</Button>
                             </Card.Body>
                             {/* <h4>Spirit Roots</h4>
                         <p class="price"><span>450.000đ</span></p> */}
@@ -98,7 +98,7 @@ const Game = () => {
                             <Card.Body>
                                 <Card.Img className="card-img" variant="top" src="https://mkt-web.gameloft.com/static/df8cd0bec21ddac93dcfc37a971233eb.jpg" />
                                 <Card.Title>Iron Blade</Card.Title>
-                                <Button variant="primary">View Game</Button>
+                                <Button href="gamedetail" variant="primary">View Game</Button>
                             </Card.Body>
                             {/* <h4>Tiki Monkeys</h4>
                         <p class="price"><span>450.000đ</span></p> */}
@@ -109,7 +109,7 @@ const Game = () => {
                             <Card.Body>
                                 <Card.Img className="card-img" variant="top" src="https://mkt-web.gameloft.com/static/73ef0055a5c8864503d0648f0252af82.jpg" />
                                 <Card.Title>Blitz Brigade</Card.Title>
-                                <Button variant="primary">View Game</Button>
+                                <Button href="gamedetail" variant="primary">View Game</Button>
                             </Card.Body>
                             {/* <h4>Pocket Climber</h4>
                         <p class="price"><span>450.000đ</span></p> */}
@@ -120,7 +120,7 @@ const Game = () => {
                             <Card.Body>
                                 <Card.Img className="card-img" variant="top" src="https://mkt-web.gameloft.com/static/59f80774d53aac7a84538bfa27dd664b.jpg" />
                                 <Card.Title>GangStar New Orleans</Card.Title>
-                                <Button variant="primary">View Game</Button>
+                                <Button href="gamedetail" variant="primary">View Game</Button>
                             </Card.Body>
                             {/* <h4>Almost A Hero</h4>
                         <p class="price"><span>450.000đ</span></p> */}
@@ -131,7 +131,7 @@ const Game = () => {
                             <Card.Body>
                                 <Card.Img className="card-img" variant="top" src="https://mkt-web.gameloft.com/static/4f12102d488dab2d95cb70663915a098.png" />
                                 <Card.Title>OverDrive City</Card.Title>
-                                <Button variant="primary">View Game</Button>
+                                <Button href="gamedetail" variant="primary">View Game</Button>
                             </Card.Body>
                             {/* <h4>Pikamon</h4>
                         <p class="price"><span>450.000đ</span></p> */}
@@ -142,7 +142,7 @@ const Game = () => {
                             <Card.Body>
                                 <Card.Img className="card-img" variant="top" src="https://mkt-web.gameloft.com/static/cf9515bb93ebe803c6724182979762a8.jpg" />
                                 <Card.Title>Linda Brown</Card.Title>
-                                <Button variant="primary">View Game</Button>
+                                <Button href="gamedetail" variant="primary">View Game</Button>
                             </Card.Body>
                             {/* <h4>Biệt đội môi trường</h4>
                         <p class="price"><span>450.000đ</span></p> */}
@@ -153,7 +153,7 @@ const Game = () => {
                             <Card.Body>
                                 <Card.Img className="card-img" variant="top" src="https://mkt-web.gameloft.com/static/1990fa5cd427975ccac192f4d592df7e.jpg" />
                                 <Card.Title>Ice Age Adventures</Card.Title>
-                                <Button variant="primary">View Game</Button>
+                                <Button href="gamedetail" variant="primary">View Game</Button>
                             </Card.Body>
                             {/* <h4>Monsters &amp; Titans</h4>
                         <p class="price"><span>450.000đ</span></p> */}

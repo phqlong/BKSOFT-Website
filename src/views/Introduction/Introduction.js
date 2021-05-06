@@ -21,7 +21,7 @@ const Introduction = () => {
             <section class="s-aboutus">
                 <h1>Chúng tôi là BKSoft</h1>
                 <hr></hr>
-                <p>Thành lập ngày 6/9/2013, BKSoft hiện là một trong những công ty internet và dịch vụ công nghệ lớn nhất Việt Nam.</p>
+                <p>Thành lập ngày 6/9/2000, BKSoft hiện là một trong những công ty internet và dịch vụ công nghệ lớn nhất Việt Nam.</p>
                 <Carousel>
                     <Carousel.Item>
                         <img

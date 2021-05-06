@@ -1,6 +1,6 @@
 .navbar {
     background: linear-gradient(to left, #c63439, #06105b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    /* background-image: url("../../assets/img/header-bg.png"); */
+    /* background-image: url("../../assets/img/header-bg.png"); */ 
 }
 .navbar .dropdown-menu.show{
     background: linear-gradient(to left, #c63439, #06105b);
@@ -20,6 +20,9 @@
 .nav-link{
     font-family: Verdana, sans-serif;
     color: white !important;
+}
+.nav-link:hover{
+    background-color: rgba(0, 0, 0, 0.3);
 }
 @media only screen and (max-width: 991px){
     .nav-link{

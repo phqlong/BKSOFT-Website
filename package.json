@@ -10,6 +10,7 @@
     "flow-bin": "^0.150.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
+    "react-chrono": "^1.9.2",
     "react-dom": "^17.0.2",
     "react-helmet-async": "^1.0.9",
     "react-icofont": "^1.0.19",
@@ -17,6 +18,7 @@
     "react-redux": "^7.2.4",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-swipeable": "^6.1.0",
     "reactstrap": "^8.9.0",
     "sass": "^1.32.12",
     "web-vitals": "^1.1.1"

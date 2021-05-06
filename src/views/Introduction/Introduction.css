@@ -1,0 +1,40 @@
+#root {
+    background-color: rgb(252, 245, 235);
+}
+
+.s-aboutus {
+    background-color: #4b698d;
+    color: whitesmoke;
+}
+
+.s-aboutus hr {
+    border-top: 2px solid rgba(240, 238, 243, 0.3);
+    width: 90%;
+}
+
+.s-products .jumbotron{
+    margin-bottom: 0;
+}
+.s-products hr {
+    border-top: 2px solid rgba(62, 44, 100, 0.3);
+    width: 90%;
+}
+
+.s-products a{
+    text-decoration: none;
+    color: white;
+}
+
+.s-products .card {
+    background-color: #eeeeee;
+}
+
+.s-products .card-text {
+    text-align: justify;
+}
+.s-products .card-header {
+    background-color: #0984e3;
+    color: whitesmoke;
+}
+
+

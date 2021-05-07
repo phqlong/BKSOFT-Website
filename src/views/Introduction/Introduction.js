@@ -95,7 +95,7 @@ const Introduction = () => {
                                             dịch vụ trung gian thanh toán theo xu hướng mới, và cung cấp
                                             các hệ thống, giải pháp công nghệ thông minh dựa trên kết nối Internet và công nghệ đám mây.
                                         </Card.Text>
-                                        <Button variant="primary"><a href="/socialapp">Xem ngay</a></Button>
+                                        <Button variant="primary"><a href="/software">Xem ngay</a></Button>
                                     </Card.Body>
                                 </Card>
                             </Col>

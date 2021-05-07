@@ -4,3 +4,15 @@
 #gd-container{
     background-color: whitesmoke;
 }
+#gd-game-description{
+    text-align: justify;
+}   
+
+@media only screen and (max-width: 991px){
+    #gd-game-title{
+        text-align: center;
+    }
+    #gd-game-description{
+        padding: 0 10px;
+    }
+}

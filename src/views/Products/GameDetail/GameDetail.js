@@ -23,8 +23,8 @@ const GameDetail =()=> {
                     <img src="https://www.gameloft.com/assets/game/overdrive-city/dist/images/landing/car1.jpg"></img> 
                 </Col>
                 <Col lg="6" className="align-left">
-                    <h1>Over Drive City</h1>
-                    <p>Build your ultimate car city where creativity spans from the factory floor to the fast lane, build 
+                    <h1 id="gd-game-title">Over Drive City</h1>
+                    <p id="gd-game-description">Build your ultimate car city where creativity spans from the factory floor to the fast lane, build 
                         and collect your favorite car, Assemble car showrooms, construct factories, and craft custom roadways.
                         Put the pedal to the metal in a 6-chapter Career mode and in Race Trials.</p>
                 </Col>

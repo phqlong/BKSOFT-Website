@@ -14,18 +14,15 @@ import "./Header.scss"
 class Header extends Component{
     stickHeader = () => {
         const navbar = document.getElementsByClassName("navbar")[0];
+        const navbarToggler = navbar.getElementsByClassName("navbar-toggler")[0]
         window.onscroll = () => {
-            if (window.location.pathname != "/home") {
+            if ((window.location.pathname != "/home") && (window.location.pathname != "/")) {
 
                 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                    navbar.style.position = "fixed";
-                    navbar.style.zIndex = "2";
-                    navbar.style.width = "100%";
-                    navbar.style.background = "rgba(0,0,0,0.6)";
+                    navbar.classList.add("navbar-onscroll");
                 }
                 else {
-                    navbar.style.position = "relative";
-                    navbar.style.background = "linear-gradient(to left, #c63439, #06105b)";
+                    navbar.classList.remove("navbar-onscroll");
                 }
             }
         }

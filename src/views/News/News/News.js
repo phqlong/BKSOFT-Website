@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Nav, Navbar, NavDropdown, FormControl, Button, Container, Carousel, Card } from 'react-bootstrap';
-
+import Banner from "../../../components/Banner"
 import "./news.css"
 import new1 from "../../../assets/img/new1.jpg"
 import new2 from "../../../assets/img/new2.jpg"
@@ -18,7 +18,13 @@ const News = () => {
         setIndex(selectedIndex);
     };
     return (
-        <Container>
+        <section>
+            <Banner
+                title="</> Tin tức BKSOFT"
+                content="Cập nhật những tin tức công nghệ mới nhất từ BKSOFT!"
+            />
+            <Container>
+             
             <Carousel activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
                     <img
@@ -107,6 +113,8 @@ const News = () => {
             </Row>
         </Container>
 
+        </section>
+        
     )
 }
 

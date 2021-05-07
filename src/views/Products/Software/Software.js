@@ -67,7 +67,7 @@ const SocialApp = () => {
                         </Row>
                     </Form>
                     <Row>
-                        <Col xs="6" lg="3">
+                        <Col xs="12" sm="6" lg="3">
                             <Card className="card-game" >
                                 <Card.Body>
                                     <img className="card-img" variant="top" src={require("../../../assets/img/logo_software1.PNG").default} />
@@ -76,7 +76,7 @@ const SocialApp = () => {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col xs="6" lg="3">
+                        <Col xs="12" sm="6" lg="3">
                             <Card className="card-game">
                                 <Card.Body>
                                     <Card.Img className="card-img" variant="top" src={require("../../../assets/img/logo_software2.PNG").default} />
@@ -84,7 +84,7 @@ const SocialApp = () => {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col xs="6" lg="3">
+                        <Col xs="12" sm="6" lg="3">
                             <Card className="card-game">
                                 <Card.Body>
                                     <Card.Img className="card-img" variant="top" src={require("../../../assets/img/logo_software3.PNG").default} />
@@ -94,7 +94,7 @@ const SocialApp = () => {
                         <p class="price"><span>450.000đ</span></p> */}
                             </Card>
                         </Col>
-                        <Col xs="6" lg="3">
+                        <Col xs="12" sm="6" lg="3">
                             <Card className="card-game">
                                 <Card.Body>
                                     <Card.Img className="card-img" variant="top" src={require("../../../assets/img/logo_software4.PNG").default} />
@@ -104,7 +104,7 @@ const SocialApp = () => {
                         <p class="price"><span>450.000đ</span></p> */}
                             </Card>
                         </Col>
-                        <Col xs="6" lg="3">
+                        <Col xs="12" sm="6" lg="3">
                             <Card className="card-game">
                                 <Card.Body>
                                     <Card.Img className="card-img" variant="top" src={require("../../../assets/img/logo_software5.PNG").default} />
@@ -114,7 +114,7 @@ const SocialApp = () => {
                         <p class="price"><span>450.000đ</span></p> */}
                             </Card>
                         </Col>
-                        <Col xs="6" lg="3">
+                        <Col xs="12" sm="6" lg="3">
                             <Card className="card-game">
                                 <Card.Body>
                                     <Card.Img className="card-img" variant="top" src={require("../../../assets/img/logo_software6.PNG").default} />
@@ -124,7 +124,7 @@ const SocialApp = () => {
                         <p class="price"><span>450.000đ</span></p> */}
                             </Card>
                         </Col>
-                        <Col xs="6" lg="3">
+                        <Col xs="12" sm="6" lg="3">
                             <Card className="card-game">
                                 <Card.Body>
                                     <Card.Img className="card-img" variant="top" src={require("../../../assets/img/logo_software7.PNG").default} />

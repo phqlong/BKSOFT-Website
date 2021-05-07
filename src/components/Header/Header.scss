@@ -1,6 +1,12 @@
 .navbar {
-    background: linear-gradient(to left, #c63439, #06105b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, rgb(198, 52, 57), rgb(6, 16, 91)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* background-image: url("../../assets/img/header-bg.png"); */ 
+}
+.navbar-onscroll{
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+    background: rgba(0,0,0,0.85);
 }
 .nav-link{
     font-family: Verdana, sans-serif;
@@ -39,8 +45,10 @@
         text-align: left;
 
     }
+    .navbar-toggler{
+        background: rgba(255,255,255,0.7);
+    }
     .header-brand{
         text-align: left;
     }
 }
-

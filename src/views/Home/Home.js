@@ -1,5 +1,6 @@
 import { useState , Component} from "react";
 import Header from "../../components/Header/Header";
+import {Row, Col} from 'react-bootstrap';
 import { Link, Redirect, useHistory } from "react-router-dom";
 import {
     Jumbotron,
@@ -54,10 +55,11 @@ class Home extends Component {
     render() {
         return (
             <section id="home">
+                <Header />
                 <Jumbotron id="home-title">
                     <div id="home-title-content">
-                        <h1>BKS0FT</h1>
-                        <h2>Society and Gaming</h2>
+                        <h1>BKSOFT</h1>
+                        <h2>Software and Gaming</h2>
                         <p>
                             <a href="introduction">
                                 <Button>Giới thiệu</Button>
@@ -65,7 +67,34 @@ class Home extends Component {
                         </p>
                     </div>
                 </Jumbotron>
-                <Header />
+
+                <div id="home-stats">
+                        <div className="stat">
+                            <div className="circle">
+                                <p className="number">20</p>
+                            </div>
+                            <p className="stat-description">Năm kinh nghiệm</p>
+                        </div>
+                        <div className="stat">
+                            <div className="circle">
+                                <p className="number">40</p>
+                            </div>
+                            <p className="stat-description">Sản phẩm game</p>
+                        </div>
+                        <div className="stat">
+                            <div className="circle">
+                                <p className="number">7</p>
+                            </div>
+                            <p className="stat-description">Phần mềm phổ biến nhất</p>
+                        </div>
+                        <div className="stat">
+                            <div className="circle">
+                                <p className="number">2</p>
+                            </div>
+                            <p className="stat-description">Nhóm sản phẩm chủ lực</p>
+                        </div>                    
+                </div>
+                
             </section>
         );
     }

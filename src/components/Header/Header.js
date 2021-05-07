@@ -14,32 +14,32 @@ import "./Header.scss"
 class Header extends Component{
     stickHeader = () => {
         const navbar = document.getElementsByClassName("navbar")[0];
+        const navbarToggler = navbar.getElementsByClassName("navbar-toggler")[0]
         window.onscroll = () => {
-            if(document.body.scrollTop > 20 ||  document.documentElement.scrollTop > 20){
-                navbar.style.position = "fixed";
-                navbar.style.zIndex = "2";
-                navbar.style.width = "100%";
-                navbar.style.background = "rgba(0,0,0,0.6)";
-            }
-            else{
-                navbar.style.position = "relative";
-                navbar.style.background = "linear-gradient(to left, #c63439, #06105b)";
+            if ((window.location.pathname != "/home") && (window.location.pathname != "/")) {
+
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    navbar.classList.add("navbar-onscroll");
+                }
+                else {
+                    navbar.classList.remove("navbar-onscroll");
+                }
             }
         }
     };
-    activeDropdown =() =>{
+    activeDropdown = () => {
         window.onload = () => {
-        var navDropdown = document.getElementsByClassName("nav-dropdown");
-        for(let nD of navDropdown){
-            let navItem = nD.getElementsByClassName("nav-link");
-            for(let nI of navItem){
-                if(nI.classList.contains("nav-link-active")){
-                    nD.classList.add("nav-link-active");
+            var navDropdown = document.getElementsByClassName("nav-dropdown");
+            for (let nD of navDropdown) {
+                let navItem = nD.getElementsByClassName("nav-link");
+                for (let nI of navItem) {
+                    if (nI.classList.contains("nav-link-active")) {
+                        nD.classList.add("nav-link-active");
+                    }
+                    break;
                 }
-                break;
             }
         }
-    }
 
     }
     componentDidMount(){

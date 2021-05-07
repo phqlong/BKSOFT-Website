@@ -24,7 +24,7 @@ function App() {
       <div className="App">
         <Switch>
           <Route exact path="/">
-            <Home />
+            <Home /> 
           </Route>
 
           <Route exact path="/home">
@@ -35,10 +35,6 @@ function App() {
             <Header />
 
             <Switch>
-              <Route exact path="/" component={Home} />
-
-              <Route path="/home" component={Home} />
-
               <Route path="/introduction" component={Introduction} />
 
               <Route path="/game" component={Game} />

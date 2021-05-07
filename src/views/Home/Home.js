@@ -58,8 +58,8 @@ class Home extends Component {
                 <Header />
                 <Jumbotron id="home-title">
                     <div id="home-title-content">
-                        <h1>BKS0FT</h1>
-                        <h2>Society and Gaming</h2>
+                        <h1>BKSOFT</h1>
+                        <h2>Software and Gaming</h2>
                         <p>
                             <a href="introduction">
                                 <Button>Giới thiệu</Button>

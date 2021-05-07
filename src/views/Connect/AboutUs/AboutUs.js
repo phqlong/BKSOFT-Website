@@ -23,16 +23,16 @@ const AboutUs = () => {
             />
 
             <Container>
-                <Breadcrumb>
+                <Breadcrumb id="team-breadcrumb">
                     <Breadcrumb.Item href="/home">Trang chủ</Breadcrumb.Item>
                     <Breadcrumb.Item active>Chúng tôi</Breadcrumb.Item>
                 </Breadcrumb>
-                <p>
+                <p id="team-title">
                   Đội ngũ chúng tôi có 4 thành viên, đó là:
                 </p>
                 
-                <Row>
-                    <Col lg={true}>
+                <Row id="name-cards">
+                    <Col lg={3} class="name-card">
                       <Card>
                         {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
                         <Card.Body>
@@ -50,14 +50,14 @@ const AboutUs = () => {
                       </Card>
                     </Col>
 
-                    <Col lg={true}>
+                    <Col lg={3} class="name-card">
                       <Card>
                         {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
                         <Card.Body>
                           <Card.Title>Nguyễn Trần Hoàn Duy</Card.Title>
                           <Card.Text>
-                            Student's ID:  <br/>
-                            Email: 
+                            Student's ID: 1811731<br/>
+                            Email: duy.nguyen27@hcmut.edu.vn
                           </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -68,7 +68,7 @@ const AboutUs = () => {
                       </Card>
                     </Col>
                     
-                    <Col lg={true}>
+                    <Col lg={3} class="name-card">
                       <Card>
                         {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
                         <Card.Body>
@@ -86,14 +86,14 @@ const AboutUs = () => {
                       </Card>
                     </Col>
 
-                    <Col lg={true}>
+                    <Col lg={3} class="name-card">
                     <Card>
                         {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
                         <Card.Body>
                           <Card.Title>Đinh Tiến Dũng</Card.Title>
                           <Card.Text>
-                            Student's ID:  <br/>
-                            Email:
+                            Student's ID: 1710854<br/>
+                            Email: dung.dinhrumble@hcmut.edu.vn
                           </Card.Text>
                         </Card.Body>
                         <Card.Footer>

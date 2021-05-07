@@ -38,7 +38,7 @@ const Footer = () => {
             <Container fluid id="footer">
                 <Row>
                     <Col lg={3} id="footer-name">
-                        <h2 className="Footer-brand"><a href="/home">BKS0FT</a></h2>
+                        <h2 className="Footer-brand"><a href="/home">BKSOFT</a></h2>
                     </Col>
                     <Col lg={3} id="footer-info">
                         <h5>Liên hệ</h5>
@@ -96,7 +96,7 @@ const Footer = () => {
                         </div>
                     </Col>
                 </Row>
-                <h5 id="footer-copyright"> Copyright © 2021-2031 <a href="/home">BKS0FT</a> | All rights reserved</h5>    
+                <h5 id="footer-copyright"> Copyright © 2021-2031 <a href="/home">BKSOFT</a> | All rights reserved</h5>    
             </Container>
     )
 }

@@ -30,24 +30,24 @@ class Header extends Component{
             }
         }
     };
-    // activeDropdown =() =>{
-    //     window.onload = () => {
-    //     var navDropdown = document.getElementsByClassName("nav-dropdown");
-    //     for(let nD of navDropdown){
-    //         let navItem = nD.getElementsByClassName("nav-link");
-    //         for(let nI of navItem){
-    //             if(nI.classList.contains("nav-link-active")){
-    //                 nD.classList.add("nav-link-active");
-    //             }
-    //             break;
-    //         }
-    //     }
-    // }
+    activeDropdown = () => {
+        window.onload = () => {
+            var navDropdown = document.getElementsByClassName("nav-dropdown");
+            for (let nD of navDropdown) {
+                let navItem = nD.getElementsByClassName("nav-link");
+                for (let nI of navItem) {
+                    if (nI.classList.contains("nav-link-active")) {
+                        nD.classList.add("nav-link-active");
+                    }
+                    break;
+                }
+            }
+        }
 
-    // }
+    }
     componentDidMount(){
         this.stickHeader();
-        // this.activeDropdown();
+        this.activeDropdown();
     }
     render(){
         return (

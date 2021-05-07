@@ -2,6 +2,10 @@
     background: linear-gradient(to left, #c63439, #06105b);
 }
 
+.Introduction .breadcrumb {
+    background:rgba(0,0,0,0);
+}
+
 .s-aboutus {
     margin-top: 1rem;
     background-color:#2c3e50;

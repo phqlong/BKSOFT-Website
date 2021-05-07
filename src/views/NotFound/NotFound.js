@@ -8,8 +8,8 @@ const NotFound = () => (
       <Helmet title="404 Not Found">
         <meta name="description" content="The content you are looking for cannot be found." />
       </Helmet>
-      <h1 data-testid="heading">Éc éc không tìm thấy trang!</h1>
-      <p>Quay trở về <Link to="/">Trang chủ</Link>.</p>
+      <h1 data-testid="heading" style={{color: 'white'}}>Éc éc không tìm thấy trang!</h1>
+      <p style={{color: 'white'}}>Quay trở về <Link to="/">Trang chủ</Link></p>
     </div>
   </HelmetProvider>
 );

@@ -10,10 +10,11 @@
 #name-cards{
     display: flex;
     flex-flow: row wrap;
-    align-items: stretch;
+    justify-content: center;
+    position: relative;
 }
 .name-card{
-    flex: 0 0 calc(25%-100px);
+    flex: 0 0 calc(25% - 60px);
 }
 .icon {
     height: 20px;
@@ -23,8 +24,13 @@
 .icon + .icon {
     margin-left: 20px;
 }
-@media only screen and(max-width: 991px){
+@media only screen and (max-width: 991px){
     .name-card{
-        flex: 0 0 40%;
+        flex: 0 0 calc(50% - 60px);
+    }
+}
+@media only screen and (max-width: 767px){
+    .name-card{
+        flex: 0 0 calc(100% - 100px);
     }
 }

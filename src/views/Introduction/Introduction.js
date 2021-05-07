@@ -32,7 +32,7 @@ const Introduction = () => {
 
                 </Breadcrumb>
 
-                <section class="s-aboutus">
+                <section className="s-aboutus">
                     <Carousel>
                         <Carousel.Item>
                             <img
@@ -69,14 +69,14 @@ const Introduction = () => {
                     </Carousel>
                 </section>
 
-                <section class="s-products">
+                <section className="s-products">
                     <Jumbotron>
                         <h1>Sản phẩm</h1>
                         <hr></hr>
                         <p>Lĩnh vực hoạt động của BKSoft tập trung vào 2 nhóm sản phẩm chủ lực, đó là trò chơi trực tuyến và các dịch vụ công nghệ.</p>
 
                         <Row>
-                            <Col sm="12" md="6">
+                            <Col sm={12} md={6}>
                                 <Card>
                                     <Card.Header>
                                         <h3>BK Games</h3>
@@ -93,7 +93,7 @@ const Introduction = () => {
                                 </Card>
                             </Col>
 
-                            <Col sm="12" md="6">
+                            <Col sm={12} md={6}>
                                 <Card>
                                     <Card.Header>
                                         <h3>BK Software</h3>

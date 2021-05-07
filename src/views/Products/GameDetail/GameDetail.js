@@ -12,7 +12,7 @@ import { BsSun } from "react-icons/bs";
 import { AiFillCloud } from "react-icons/ai";
 const GameDetail =()=> {
     return(
-        <Container>
+        <section id="gd-container">
             <Breadcrumb>
                 <Breadcrumb.Item href="/home" >Trang chủ</Breadcrumb.Item>
                 <Breadcrumb.Item >Game</Breadcrumb.Item>
@@ -46,7 +46,7 @@ const GameDetail =()=> {
                     <Button class="button-buy" size="lg" variant="success">Click to buy</Button>
                 </Col>
             </Row>
-        </Container>
+        </section>
     );
 }
 

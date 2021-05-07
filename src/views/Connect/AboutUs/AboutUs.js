@@ -32,14 +32,14 @@ const AboutUs = () => {
                 </p>
                 
                 <Row id="name-cards">
-                    <Col lg={3} class="name-card">
+                    <Col lg={true} class="name-card">
                       <Card>
                         {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
                         <Card.Body>
                           <Card.Title>Phan Quốc Long</Card.Title>
                           <Card.Text>
-                            Student's ID: 1810299 <br/>
-                            Email: long.phan2810@hcmut.edu.vn
+                            <b>Student's ID</b> <br/> 1810299<br/>
+                            <b>Email</b> <br/> long.phan2810@hcmut.edu.vn 
                           </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -50,14 +50,14 @@ const AboutUs = () => {
                       </Card>
                     </Col>
 
-                    <Col lg={3} class="name-card">
+                    <Col lg={true} class="name-card">
                       <Card>
                         {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
                         <Card.Body>
                           <Card.Title>Nguyễn Trần Hoàn Duy</Card.Title>
                           <Card.Text>
-                            Student's ID: 1811731<br/>
-                            Email: duy.nguyen27@hcmut.edu.vn
+                            <b>Student's ID</b> <br/> 1811731<br/>
+                            <b>Email</b> <br/> duy.nguyen27@hcmut.edu.vn
                           </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -68,14 +68,14 @@ const AboutUs = () => {
                       </Card>
                     </Col>
                     
-                    <Col lg={3} class="name-card">
+                    <Col lg={true} class="name-card">
                       <Card>
                         {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
                         <Card.Body>
                           <Card.Title>Lê Ngọc Hiếu</Card.Title>
                           <Card.Text>
-                            Student's ID:  <br/>
-                            Email: 
+                            <b>Student's ID</b> <br/> 1812164<br/>
+                            <b>Email</b> <br/> hieu.le6102@hcmut.edu.vn
                           </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -86,14 +86,14 @@ const AboutUs = () => {
                       </Card>
                     </Col>
 
-                    <Col lg={3} class="name-card">
+                    <Col lg={true} class="name-card">
                     <Card>
                         {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
                         <Card.Body>
                           <Card.Title>Đinh Tiến Dũng</Card.Title>
                           <Card.Text>
-                            Student's ID: 1710854<br/>
-                            Email: dung.dinhrumble@hcmut.edu.vn
+                            <b>Student's ID</b> <br/> 1710854<br/>
+                            <b>Email</b> <br/> dung.dinhrumble@hcmut.edu.vn
                           </Card.Text>
                         </Card.Body>
                         <Card.Footer>

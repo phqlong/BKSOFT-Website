@@ -1,18 +1,28 @@
-.info {
-    justify-content: center;
-    align-items: center;
-
-    &__email, &__phone {
-        font-weight: bold;
-        margin: 30px;
+#contact{
+    .breadcrumb{
+        background: none;
+        .active{
+            color: white;
+        }
     }
+    .info {
+        justify-content: center;
+        align-items: center;
+    
+        &__email, &__phone, &__address {
+            font-weight: bold;
+            margin: 30px;
+            color: white;
+        }
+    
+        iframe {
+            height: 250px;
+            width: 400px;
+        }
+    
+        a:hover {
+            color: goldenrod;
+        }
 
-    iframe {
-        height: 250px;
-        width: 400px;
-    }
-
-    a:hover {
-        color: goldenrod;
     }
 }

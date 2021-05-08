@@ -61,7 +61,7 @@ class Home extends Component {
                         <h1>BKSOFT</h1>
                         <h2>Software and Gaming</h2>
                         <p>
-                            <a href="introduction">
+                            <a href="/introduction">
                                 <Button>Giới thiệu</Button>
                             </a>
                         </p>

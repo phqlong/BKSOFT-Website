@@ -3,10 +3,9 @@
 
 - Clone this project from **master** branch.
 - After cloning, change to the project's directory.
+- Run `npm install` to install modules.
 - Run `npm start` to start the project.
-- If there is problem, try `npm install` before `npm start`
-
-Back-up branch: **checkConflict** 
+- If there is problem,check this back-up branch: **checkConflict** 
 
 ## Student list:
 |Student name|Student ID|Github account|

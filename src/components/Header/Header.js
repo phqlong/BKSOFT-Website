@@ -10,9 +10,9 @@ import "./Header.scss"
 class Header extends Component{
     stickHeader = () => {
         const navbar = document.getElementsByClassName("navbar")[0];
+        const navbarToggler = navbar.getElementsByClassName("navbar-toggler")[0]
         window.onscroll = () => {
             if ((window.location.pathname !== "/home") && (window.location.pathname !== "/")) {
-
                 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                     navbar.classList.add("navbar-onscroll");
                 }
@@ -35,6 +35,7 @@ class Header extends Component{
                 }
             }
         }
+
     }
     componentDidMount(){
         this.stickHeader();

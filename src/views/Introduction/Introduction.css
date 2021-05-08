@@ -17,6 +17,13 @@
     background-position:center !important;
 }
 
+.s-aboutus .carousel-item{
+    height:100%;
+    width:100%;
+    background-size:cover !important;
+    background-position:center !important;
+}
+
 .s-aboutus hr {
     border-top: 2px solid rgba(240, 238, 243, 0.3);
     width: 90%;

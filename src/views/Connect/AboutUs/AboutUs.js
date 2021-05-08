@@ -1,7 +1,9 @@
 import { Col, Row } from "reactstrap"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { Breadcrumb, Container, Card } from 'react-bootstrap';
+
 
 import "./aboutus.css";
 import Banner from "../../../components/Banner"
@@ -52,6 +54,7 @@ const AboutUs = () => {
                 <Card.Title>Nguyễn Trần Hoàn Duy</Card.Title>
                 <Card.Text>
                   Student's ID: 1811731 <br /><br />
+
                   <i class="icofont-envelope"></i>
                   <a href="mailto:phqlong2810@gmail.com"> Email me</a>
                 </Card.Text>
@@ -61,6 +64,7 @@ const AboutUs = () => {
                 <a href="https://facebook.com/" target="_blank" rel="noreferrer"><FaFacebook /></a>
                   <a href="https://vn.linkedin.com/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
                   <a href="https://github.com/phqlong/Web-assignment" target="_blank" rel="noreferrer"><FaGithub /></a>
+
                 </div>
               </Card.Footer>
             </Card>
@@ -72,6 +76,7 @@ const AboutUs = () => {
                 <Card.Title>Lê Ngọc Hiếu</Card.Title>
                 <Card.Text>
                   Student's ID: 1812164 <br /><br />
+
                   <i class="icofont-envelope"></i>
                   <a href="mailto:phqlong2810@gmail.com"> Email me</a>
                 </Card.Text>
@@ -81,6 +86,7 @@ const AboutUs = () => {
                 <a href="https://facebook.com/" target="_blank" rel="noreferrer"><FaFacebook /></a>
                   <a href="https://vn.linkedin.com/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
                   <a href="https://github.com/phqlong/Web-assignment" target="_blank" rel="noreferrer"><FaGithub /></a>
+
                 </div>
               </Card.Footer>
             </Card>
@@ -89,6 +95,7 @@ const AboutUs = () => {
           <Col lg={true}>
             <Card>
               <Card.Body>
+
                 <Card.Title>Đinh Tiến Dũng</Card.Title>
                 <Card.Text>
                   Student's ID: 1710854 <br /><br />

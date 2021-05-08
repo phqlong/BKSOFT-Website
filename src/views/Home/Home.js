@@ -1,7 +1,5 @@
-import { useState , Component} from "react";
+import { Component} from "react";
 import Header from "../../components/Header/Header";
-import {Row, Col} from 'react-bootstrap';
-import { Link, Redirect, useHistory } from "react-router-dom";
 import {
     Jumbotron,
 } from "reactstrap";
@@ -13,9 +11,6 @@ import {
 
 import "./Home.scss";
 
-import home1 from "../../assets/img/home1.png";
-import home2 from "../../assets/img/home2.jpg";
-import home3 from "../../assets/img/home3.jpg";
 
 class Home extends Component {
     handleTogglerInHome = () => {

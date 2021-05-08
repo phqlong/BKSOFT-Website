@@ -1,10 +1,7 @@
-import { useState } from "react"
-import { Link, Redirect, useHistory } from 'react-router-dom'
-import { Col, Dropdown, DropdownItem, DropdownMenu, DropdownToggle, FormGroup, Input, InputGroup, InputGroupAddon, List, Row } from "reactstrap"
-import { useDispatch, useSelector } from "react-redux"
+import { Col, Row } from "reactstrap"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Nav, Navbar, NavDropdown, FormControl, Button, Container, Card, Form, Pagination, Breadcrumb } from 'react-bootstrap';
+import { Button, Container, Card, Form, Pagination, Breadcrumb } from 'react-bootstrap';
 import "./Game.css"
 import Banner from "../../../components/Banner"
 

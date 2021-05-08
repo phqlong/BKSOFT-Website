@@ -1,12 +1,8 @@
-import { useState, Component } from "react"
-import { AiOutlineSearch } from 'react-icons/ai'
-import { Link, Redirect, useHistory, NavLink} from 'react-router-dom'
-import { Form ,Col,  DropdownItem, DropdownMenu, DropdownToggle, FormGroup, Input, InputGroup, InputGroupAddon, List, Row, NavItem} from "reactstrap"
-import { useDispatch, useSelector } from "react-redux"
-
+import { Component } from "react"
+import { NavLink} from 'react-router-dom'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Nav, Navbar, NavDropdown, FormControl, Button, Container, Dropdown } from 'react-bootstrap';
+import {Nav, Navbar, NavDropdown, Container} from 'react-bootstrap';
 
 import "./Header.scss"
 
@@ -16,8 +12,7 @@ class Header extends Component{
         const navbar = document.getElementsByClassName("navbar")[0];
         const navbarToggler = navbar.getElementsByClassName("navbar-toggler")[0]
         window.onscroll = () => {
-            if ((window.location.pathname != "/home") && (window.location.pathname != "/")) {
-
+            if ((window.location.pathname !== "/home") && (window.location.pathname !== "/")) {
                 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                     navbar.classList.add("navbar-onscroll");
                 }

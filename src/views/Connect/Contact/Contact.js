@@ -1,12 +1,7 @@
-import { useState } from "react"
-import { Link, Redirect, useHistory } from 'react-router-dom'
-import { Col, Dropdown, DropdownItem, DropdownMenu, DropdownToggle, Input, InputGroup, InputGroupAddon, List, Row } from "reactstrap"
-import { useDispatch, useSelector } from "react-redux"
+import { Col, Row } from "reactstrap"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Nav, Navbar, NavDropdown, Form, FormGroup, FormControl, Button, Breadcrumb, Container, Card, Jumbotron } from 'react-bootstrap';
-
-import Icofont from 'react-icofont';
+import { Form, Button, Breadcrumb, Container, Jumbotron } from 'react-bootstrap';
 
 import Banner from "../../../components/Banner"
 import "./contact.scss";
@@ -51,6 +46,7 @@ const Contact = () => {
                             </h4>
                             <p style={{ color: "white" }}>Tòa H6, Đại học Bách khoa HCM, Dĩ An, Bình Dương</p>
                             <iframe
+                                title="Map"
                                 src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJf5mMVqXYdDERDG4WevEFrN4&key=AIzaSyCLy-jNKbq2TcDSCRoYbqE8zM_ehxFUAI4"
                                 frameborder="0"
                                 allowfullscreen>

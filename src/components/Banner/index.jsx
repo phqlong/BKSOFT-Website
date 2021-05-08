@@ -1,4 +1,3 @@
-import react from 'react';
 import PropTypes from 'prop-types';
 import './banner.scss';
 import {Container } from 'react-bootstrap';

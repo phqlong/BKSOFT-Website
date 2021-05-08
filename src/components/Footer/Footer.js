@@ -1,12 +1,8 @@
-import { useState } from "react"
-import { Link, Redirect, useHistory } from 'react-router-dom'
-import { Form ,Col, Dropdown, DropdownItem, DropdownMenu, DropdownToggle, FormGroup, Input, InputGroup, InputGroupAddon, List, Row, Container } from "reactstrap"
-import { useDispatch, useSelector } from "react-redux"
+import { Col, Row, Container } from "reactstrap"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Nav, Navbar, NavDropdown, FormControl, Button } from 'react-bootstrap';
 
-import {FaFacebook, FaYoutube, FaInstagram, FaLinkedin, FaGithub} from "react-icons/fa"
+import {FaFacebook, FaLinkedin, FaGithub} from "react-icons/fa"
 
 import "./Footer.css"
 import "./Footer.scss"
@@ -90,9 +86,9 @@ const Footer = () => {
                         <h5>Theo dõi</h5>
                         <hr></hr>
                         <div id="footer-social-list">
-                            <a href="#"><FaFacebook/></a>
-                            <a href="#"><FaLinkedin/></a>
-                            <a href="https://github.com/phqlong/Web-assignment" target="_blank"><FaGithub/></a>
+                            <a href="https://facebook.com/" target="_blank" rel="noreferrer"><FaFacebook/></a>
+                            <a href="https://vn.linkedin.com/" target="_blank" rel="noreferrer"><FaLinkedin/></a>
+                            <a href="https://github.com/phqlong/Web-assignment" target="_blank" rel="noreferrer"><FaGithub/></a>
                         </div>
                     </Col>
                 </Row>

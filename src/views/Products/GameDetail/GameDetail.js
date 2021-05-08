@@ -1,11 +1,7 @@
-import { useState } from "react"
-import { Link, Redirect, useHistory } from 'react-router-dom'
-import { Col, Dropdown, DropdownItem, DropdownMenu, DropdownToggle, FormGroup, Input, InputGroup, InputGroupAddon, List, Row } from "reactstrap"
-import { useDispatch, useSelector } from "react-redux"
+import { Col, Row } from "reactstrap"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Nav, Navbar, NavDropdown, FormControl, Button, Container, Card, Form, Pagination, Breadcrumb } from 'react-bootstrap';
-import Banner from "../../../components/Banner"
+import { Button, Container, Breadcrumb } from 'react-bootstrap';
 import "./GameDetail.css"
 import { FiUser, FiUsers } from "react-icons/fi";
 import { BsSun } from "react-icons/bs";
@@ -21,7 +17,7 @@ const GameDetail = () => {
                 </Breadcrumb>
                 <Row>
                     <Col lg="3">
-                        <img src="https://www.gameloft.com/assets/game/overdrive-city/dist/images/landing/car1.jpg"></img>
+                        <img src="https://www.gameloft.com/assets/game/overdrive-city/dist/images/landing/car1.jpg" alt="game_thumbnail"></img>
                     </Col>
                     <Col lg="6" className="align-left">
                         <h1>Over Drive City</h1>

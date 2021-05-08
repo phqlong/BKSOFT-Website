@@ -1,7 +1,4 @@
-import { useState } from "react"
-import { Link, Redirect, useHistory } from 'react-router-dom'
-import { Form, Col, Dropdown, DropdownItem, DropdownMenu, DropdownToggle, FormGroup, Input, InputGroup, InputGroupAddon, List, Row, Container } from "reactstrap"
-import { useDispatch, useSelector } from "react-redux"
+import { Col, Row, Container } from "reactstrap"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Breadcrumb, Button, Carousel, Jumbotron, Card } from 'react-bootstrap';
@@ -38,7 +35,7 @@ const Introduction = () => {
                             <img
                                 className="d-block w-100"
                                 src={intro1}
-                                alt="First image"
+                                alt="First"
                             />
                         </Carousel.Item>
 
@@ -46,7 +43,7 @@ const Introduction = () => {
                             <img
                                 className="d-block w-100"
                                 src={intro2}
-                                alt="Second image"
+                                alt="Second"
                             />
                         </Carousel.Item>
 
@@ -54,7 +51,7 @@ const Introduction = () => {
                             <img
                                 className="d-block w-100"
                                 src={intro3}
-                                alt="Third image"
+                                alt="Third"
                             />
                         </Carousel.Item>
 
@@ -62,7 +59,7 @@ const Introduction = () => {
                             <img
                                 className="d-block w-100"
                                 src={intro4}
-                                alt="Four image"
+                                alt="Fourth"
                             />
                         </Carousel.Item>
 
@@ -82,7 +79,7 @@ const Introduction = () => {
                                         <h3>BK Games</h3>
                                     </Card.Header>
                                     <Card.Body>
-                                        <img src={game_icon}></img>
+                                        <img src={game_icon} alt="game_icon"></img>
                                         <Card.Text>
                                             BKSoft là một trong các đơn vị phát hành các tựa game từ thị trường quốc tế tại Việt Nam hoặc phát
                                             hành các tựa game Việt Nam ra thị trường quốc tế.
@@ -99,7 +96,7 @@ const Introduction = () => {
                                         <h3>BK Software</h3>
                                     </Card.Header>
                                     <Card.Body>
-                                        <img src={software_icon}></img>
+                                        <img src={software_icon} alt="software_icon"></img>
                                         <Card.Text>
                                             <br></br>
                                             BKSoftware với các dịch vụ công nghệ hiện đại, đã phục vụ toàn diện nhu cầu giải trí của cá nhân,

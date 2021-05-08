@@ -1,22 +1,11 @@
 # Webapp BKSOFT - Frontend: ReactJS + Bootstrap
+## How to use:
 
-### Updated pages:
-Game\
-Contact\
-About Us\
-Events\
-Page not found
+- Clone this project from **master** branch.
+- After cloning, change to the project's directory.
+- Run `npm start` to start the project.
+- If there is problem, try `npm install` before `npm start`.
 
-### Pages to-do:
-Home\
-Introduction\
-Social App\
-News
-
-### Components:
-Header\
-Footer\
-Banner
 
 # Getting Started with Create React App
 

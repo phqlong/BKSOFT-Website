@@ -7,3 +7,29 @@
 .icon + .icon {
     margin-left: 20px;
 }
+
+.Aboutus .breadcrumb {
+    background: rgba(0,0,0,0);
+}
+
+.Aboutus .card {
+    height: 14rem;
+    border-radius: 20px;
+}
+
+.Aboutus .card-title {
+    color: brown;
+}
+
+.card-footer-social-list *{
+    margin: 0 5px;
+    height: 30px;
+}
+
+.card-footer-social-list a {
+    color:brown;
+}
+
+.card-footer-social-list a:hover {
+    color:darkorange;
+}

@@ -1,10 +1,8 @@
 import { useState } from "react"
-import { Link, Redirect, useHistory } from 'react-router-dom'
-import { Form ,Col, Dropdown, DropdownItem, DropdownMenu, DropdownToggle, FormGroup, Input, InputGroup, InputGroupAddon, List, Row } from "reactstrap"
-import { useDispatch, useSelector } from "react-redux"
+import { Col, Row } from "reactstrap"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Nav, Navbar, NavDropdown, FormControl, Button, Container, Carousel, Card } from 'react-bootstrap';
+import { Breadcrumb, Container, Carousel, Card } from 'react-bootstrap';
 
 import "./events.css"
 import event1 from "../../../assets/img/event1.jpg"
@@ -15,11 +13,16 @@ const Events = () => {
     const [index, setIndex] = useState(0);
 
     const handleSelect = (selectedIndex, e) => {
-      setIndex(selectedIndex);
+        setIndex(selectedIndex);
     };
 
     return (
-        <Container>
+        <Container className="Events">
+            <Breadcrumb>
+                <Breadcrumb.Item href="/home" >Trang chủ</Breadcrumb.Item>
+                <Breadcrumb.Item active style={{ color: "white" }}>Sự kiện</Breadcrumb.Item>
+            </Breadcrumb>
+
             <Carousel activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
                     <img
@@ -28,7 +31,7 @@ const Events = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h5 style={{color: "white"}}>Giảm giá đến 60% tất cả các game duy nhất tuần này!</h5>
+                        <h5 style={{ color: "white" }}>Giảm giá đến 60% tất cả các game duy nhất tuần này!</h5>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -40,23 +43,23 @@ const Events = () => {
                     />
 
                     <Carousel.Caption>
-                        <h5 style={{color: "blue"}}>Sự kiện Game event duy nhất trong năm!</h5>
+                        <h5 style={{ color: "blue" }}>Sự kiện Game event duy nhất trong năm!</h5>
                     </Carousel.Caption>
                 </Carousel.Item>
-              
+
                 <Carousel.Item>
                     <img
-                    className="d-block w-100"
-                    src={event3}
-                    alt="Third slide"
+                        className="d-block w-100"
+                        src={event3}
+                        alt="Third slide"
                     />
 
                     <Carousel.Caption>
-                        <h5 style={{color: "white"}}>Hội thảo công nghệ lớn nhất năm!</h5>
+                        <h5 style={{ color: "white" }}>Hội thảo công nghệ lớn nhất năm!</h5>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-            
+
             <Row>
                 <Col lg={true}>
                     <Card>
@@ -64,7 +67,7 @@ const Events = () => {
                         <Card.Body>
                             <Card.Title>Giảm giá đặc biệt</Card.Title>
                             <Card.Text>
-                            Giảm giá đến 60% tất cả các game duy nhất tuần này!
+                                Giảm giá đến 60% tất cả các game duy nhất tuần này!
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -80,7 +83,7 @@ const Events = () => {
                         <Card.Body>
                             <Card.Title>Hội chợ Game</Card.Title>
                             <Card.Text>
-                            Sự kiện về Game duy nhất trong năm!
+                                Sự kiện về Game duy nhất trong năm!
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -96,7 +99,7 @@ const Events = () => {
                         <Card.Body>
                             <Card.Title>Diễn đàn công nghê</Card.Title>
                             <Card.Text>
-                            Diễn đàn thường niên vê công nghệ!
+                                Diễn đàn thường niên vê công nghệ!
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>

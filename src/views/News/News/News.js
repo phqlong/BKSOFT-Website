@@ -1,10 +1,8 @@
 import { useState } from "react"
-import { Link, Redirect, useHistory } from 'react-router-dom'
-import { Form, Col, Dropdown, DropdownItem, DropdownMenu, DropdownToggle, FormGroup, Input, InputGroup, InputGroupAddon, List, Row } from "reactstrap"
-import { useDispatch, useSelector } from "react-redux"
+import { Col, Row } from "reactstrap"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Nav, Navbar, NavDropdown, FormControl, Button, Container, Carousel, Card } from 'react-bootstrap';
+import { Breadcrumb, Container, Carousel, Card } from 'react-bootstrap';
 
 import "./news.css"
 import new1 from "../../../assets/img/new1.jpg"
@@ -18,7 +16,12 @@ const News = () => {
         setIndex(selectedIndex);
     };
     return (
-        <Container>
+        <Container className="News">
+            <Breadcrumb>
+                <Breadcrumb.Item href="/home" >Trang chủ</Breadcrumb.Item>
+                <Breadcrumb.Item active style={{ color: "white" }}>Tin tức</Breadcrumb.Item>
+            </Breadcrumb>
+
             <Carousel activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
                     <img

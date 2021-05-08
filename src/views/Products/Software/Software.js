@@ -1,10 +1,7 @@
-import { useState } from "react"
-import { Link, Redirect, useHistory } from 'react-router-dom'
-import { Col, Dropdown, DropdownItem, DropdownMenu, DropdownToggle, FormGroup, Input, InputGroup, InputGroupAddon, List, Row } from "reactstrap"
-import { useDispatch, useSelector } from "react-redux"
+import { Col, Row } from "reactstrap"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Nav, Navbar, NavDropdown, FormControl, Button, Container, Card, Form, Breadcrumb } from 'react-bootstrap';
+import { Container, Card, Form, Breadcrumb } from 'react-bootstrap';
 import Banner from "../../../components/Banner"
 import "./Software.css"
 const SocialApp = () => {
@@ -67,16 +64,16 @@ const SocialApp = () => {
                         </Row>
                     </Form>
                     <Row>
-                        <Col xs="6" lg="3">
+                        <Col xs="12" sm="6" lg="3">
                             <Card className="card-game" >
                                 <Card.Body>
-                                    <img className="card-img" variant="top" src={require("../../../assets/img/logo_software1.PNG").default} />
+                                    <img className="card-img" variant="top" src={require("../../../assets/img/logo_software1.PNG").default} alt="logo software 1"/>
 
                                     <Card.Footer className="name-software">BK Health Care</Card.Footer>
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col xs="6" lg="3">
+                        <Col xs="12" sm="6" lg="3">
                             <Card className="card-game">
                                 <Card.Body>
                                     <Card.Img className="card-img" variant="top" src={require("../../../assets/img/logo_software2.PNG").default} />
@@ -84,7 +81,7 @@ const SocialApp = () => {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col xs="6" lg="3">
+                        <Col xs="12" sm="6" lg="3">
                             <Card className="card-game">
                                 <Card.Body>
                                     <Card.Img className="card-img" variant="top" src={require("../../../assets/img/logo_software3.PNG").default} />
@@ -94,7 +91,7 @@ const SocialApp = () => {
                         <p class="price"><span>450.000đ</span></p> */}
                             </Card>
                         </Col>
-                        <Col xs="6" lg="3">
+                        <Col xs="12" sm="6" lg="3">
                             <Card className="card-game">
                                 <Card.Body>
                                     <Card.Img className="card-img" variant="top" src={require("../../../assets/img/logo_software4.PNG").default} />
@@ -104,7 +101,7 @@ const SocialApp = () => {
                         <p class="price"><span>450.000đ</span></p> */}
                             </Card>
                         </Col>
-                        <Col xs="6" lg="3">
+                        <Col xs="12" sm="6" lg="3">
                             <Card className="card-game">
                                 <Card.Body>
                                     <Card.Img className="card-img" variant="top" src={require("../../../assets/img/logo_software5.PNG").default} />
@@ -114,7 +111,7 @@ const SocialApp = () => {
                         <p class="price"><span>450.000đ</span></p> */}
                             </Card>
                         </Col>
-                        <Col xs="6" lg="3">
+                        <Col xs="12" sm="6" lg="3">
                             <Card className="card-game">
                                 <Card.Body>
                                     <Card.Img className="card-img" variant="top" src={require("../../../assets/img/logo_software6.PNG").default} />
@@ -124,7 +121,7 @@ const SocialApp = () => {
                         <p class="price"><span>450.000đ</span></p> */}
                             </Card>
                         </Col>
-                        <Col xs="6" lg="3">
+                        <Col xs="12" sm="6" lg="3">
                             <Card className="card-game">
                                 <Card.Body>
                                     <Card.Img className="card-img" variant="top" src={require("../../../assets/img/logo_software7.PNG").default} />

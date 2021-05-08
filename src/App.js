@@ -15,7 +15,7 @@ import GameDetail from './views/Products/GameDetail/GameDetail';
 
 // import {handleTogglerInHome} from '../src/assets/js/index'
 
-import { BrowserRouter, Route, Switch, IndexRoute, hashHistory } from 'react-router-dom';
+import { BrowserRouter, Route, Switch} from 'react-router-dom';
 
 
 function App() {

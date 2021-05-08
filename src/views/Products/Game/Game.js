@@ -1,10 +1,7 @@
-import { useState } from "react"
-import { Link, Redirect, useHistory } from 'react-router-dom'
-import { Col, Dropdown, DropdownItem, DropdownMenu, DropdownToggle, FormGroup, Input, InputGroup, InputGroupAddon, List, Row } from "reactstrap"
-import { useDispatch, useSelector } from "react-redux"
+import { Col, Row } from "reactstrap"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Nav, Navbar, NavDropdown, FormControl, Button, Container, Card, Form, Pagination, Breadcrumb } from 'react-bootstrap';
+import { Button, Container, Card, Form, Pagination, Breadcrumb } from 'react-bootstrap';
 import "./Game.css"
 import Banner from "../../../components/Banner"
 
@@ -64,7 +61,7 @@ const Game = () => {
                     </Row>
                 </Form>
                 <Row>
-                    <Col xs="6" md="4">
+                    <Col xs="12" md="4">
                         <Card className="card-game">
                             <Card.Body>
                                 <Card.Img className="card-img" variant="top" src="https://mkt-web.gameloft.com/static/83a75e971777052e179374fb3c48cbb2.jpg" />
@@ -73,7 +70,7 @@ const Game = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col xs="6" md="4">
+                    <Col xs="12" md="4">
                         <Card className="card-game">
                             <Card.Body>
                                 <Card.Img className="card-img" variant="top" src="https://mkt-web.gameloft.com/static/1d4ff24b4b4f74f845891c1ae13dff51.png" />
@@ -82,7 +79,7 @@ const Game = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col xs="6" md="4">
+                    <Col xs="12" md="4">
                         <Card className="card-game">
                             <Card.Body>
                                 <Card.Img className="card-img" variant="top" src="https://mkt-web.gameloft.com/static/a98386a60fb7464611e56a665cd27bda.jpg" />
@@ -93,7 +90,7 @@ const Game = () => {
                         <p class="price"><span>450.000đ</span></p> */}
                         </Card>
                     </Col>
-                    <Col xs="6" md="4">
+                    <Col xs="12" md="4">
                         <Card className="card-game">
                             <Card.Body>
                                 <Card.Img className="card-img" variant="top" src="https://mkt-web.gameloft.com/static/df8cd0bec21ddac93dcfc37a971233eb.jpg" />
@@ -104,7 +101,7 @@ const Game = () => {
                         <p class="price"><span>450.000đ</span></p> */}
                         </Card>
                     </Col>
-                    <Col xs="6" md="4">
+                    <Col xs="12" md="4">
                         <Card className="card-game">
                             <Card.Body>
                                 <Card.Img className="card-img" variant="top" src="https://mkt-web.gameloft.com/static/73ef0055a5c8864503d0648f0252af82.jpg" />
@@ -115,7 +112,7 @@ const Game = () => {
                         <p class="price"><span>450.000đ</span></p> */}
                         </Card>
                     </Col>
-                    <Col xs="6" md="4">
+                    <Col xs="12" md="4">
                         <Card className="card-game">
                             <Card.Body>
                                 <Card.Img className="card-img" variant="top" src="https://mkt-web.gameloft.com/static/59f80774d53aac7a84538bfa27dd664b.jpg" />
@@ -126,7 +123,7 @@ const Game = () => {
                         <p class="price"><span>450.000đ</span></p> */}
                         </Card>
                     </Col>
-                    <Col xs="6" md="4">
+                    <Col xs="12" md="4">
                         <Card className="card-game">
                             <Card.Body>
                                 <Card.Img className="card-img" variant="top" src="https://mkt-web.gameloft.com/static/4f12102d488dab2d95cb70663915a098.png" />
@@ -137,7 +134,7 @@ const Game = () => {
                         <p class="price"><span>450.000đ</span></p> */}
                         </Card>
                     </Col>
-                    <Col xs="6" md="4">
+                    <Col xs="12" md="4">
                         <Card className="card-game">
                             <Card.Body>
                                 <Card.Img className="card-img" variant="top" src="https://mkt-web.gameloft.com/static/cf9515bb93ebe803c6724182979762a8.jpg" />
@@ -148,7 +145,7 @@ const Game = () => {
                         <p class="price"><span>450.000đ</span></p> */}
                         </Card>
                     </Col>
-                    <Col xs="6" md="4">
+                    <Col xs="12" md="4">
                         <Card className="card-game">
                             <Card.Body>
                                 <Card.Img className="card-img" variant="top" src="https://mkt-web.gameloft.com/static/1990fa5cd427975ccac192f4d592df7e.jpg" />

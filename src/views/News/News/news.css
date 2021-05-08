@@ -1,6 +1,12 @@
-.carousel img {
-    width: 100%;
-    height: 500px;
+.News .breadcrumb{
+    background: rgba(0,0,0,0);
+}
+
+.Events .carousel-item{
+    height:100%;
+    width:100%;
+    background-size:cover !important;
+    background-position:center !important;
 }
 
 .card {

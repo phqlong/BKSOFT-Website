@@ -6,6 +6,11 @@
 - Run `npm start` to start the project.
 - If there is problem, try `npm install` before `npm start`.
 
+## Student list:
+|Student name|Student ID|Github account|
+|------------|:--------:|:------------:|
+|Nguyen Tran Hoan Duy|1811731|hoanduy27|
+
 
 # Getting Started with Create React App
 

@@ -3,13 +3,13 @@ import { NavLink} from 'react-router-dom'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Nav, Navbar, NavDropdown, Container} from 'react-bootstrap';
-
 import "./Header.scss"
 
 
 class Header extends Component{
     stickHeader = () => {
         const navbar = document.getElementsByClassName("navbar")[0];
+        const navbarToggler = navbar.getElementsByClassName("navbar-toggler")[0]
         window.onscroll = () => {
             if ((window.location.pathname !== "/home") && (window.location.pathname !== "/")) {
 

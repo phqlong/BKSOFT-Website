@@ -1,8 +1,8 @@
 import { Col, Row } from "reactstrap"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Breadcrumb, Container, Card } from 'react-bootstrap';
 
+import { Breadcrumb, Container, Card } from 'react-bootstrap';
 import "./aboutus.css";
 import Banner from "../../../components/Banner"
 

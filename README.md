@@ -1,4 +1,6 @@
 # Webapp BKSOFT - Frontend: ReactJS + Bootstrap
+Netlify hosting: https://bksoft.netlify.app/
+
 ## How to use:
 
 - Clone this project from **master** branch.
